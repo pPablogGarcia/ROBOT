@@ -1,0 +1,23 @@
+{
+  "name": "robot",
+  "version": "1.0.0",
+  "description": "Sistema de pesquisa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pPablogGarcia/ROBOT.git"
+  },
+  "keywords": [
+    "Node",
+    "Pesquisa"
+  ],
+  "author": "Pablo Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pPablogGarcia/ROBOT/issues"
+  },
+  "homepage": "https://github.com/pPablogGarcia/ROBOT#readme"
+}
