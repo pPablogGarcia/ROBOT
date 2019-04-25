@@ -1,9 +1,8 @@
 const readLine = require('readline-sync');
-
 function robot(search){
 
     search.term = askAndReturnSearchTerm();
-    //search.prefix = askAnReturnPrefix();
+    search.prefix = askAnReturnPrefix();
 
     function askAndReturnSearchTerm(){
         return readLine.question('Type a wikipedia search term: ');        

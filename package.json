@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/pPablogGarcia/ROBOT#readme",
   "dependencies": {
+    "algorithmia": "^0.3.10",
     "readline-sync": "^1.4.9",
     "request": "^2.88.0",
     "sbd": "^1.0.15"
