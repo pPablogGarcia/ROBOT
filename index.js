@@ -1,19 +1,3 @@
-// const robots = {
-//     input: require('./robots/input.js'),
-//     text: require('./robots/text.js')
-// }
-
-// async function Start(){
-//     let search = {}
-
-//     await robots.input(search);
-//     await robots.text(search);
-
-//     console.log(search);
-// }
-
-// Start();
-
 const robots = {
     input: require('./robots/input'),
     text: require('./robots/text')
@@ -21,10 +5,14 @@ const robots = {
 
 function Start(){
 
-    let search = {}
+    let search = {
+        maximumSentences: 10
+    }
 
     robots.input(search);
     robots.text(search);
+
+    console.log(JSON.stringify(search, null, 4));
 }
 
 Start();
